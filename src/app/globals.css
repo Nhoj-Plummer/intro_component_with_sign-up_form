@@ -29,6 +29,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  flex-direction: column; /* Remove later only need for testing */
   margin: 0;
   font-family: var(--font-family);
   font-size: var(--font-size-body);
