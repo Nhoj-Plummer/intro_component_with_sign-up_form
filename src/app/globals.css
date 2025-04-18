@@ -25,11 +25,17 @@
 
 /* Body */
 body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
   font-family: var(--font-family);
   font-size: var(--font-size-body);
   background-color: var(--dark-blue);
   color: white;
   line-height: 1.5;
+  border: 1px solid var(--grayish-blue);
 }
 
 /* Layout */
