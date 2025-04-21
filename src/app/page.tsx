@@ -12,7 +12,7 @@ export default function Home() {
       <InputField
         placeholder="First Name"
         type="text"
-        errorMessage="First Name cannot be empty"
+        errorMessage="First Name "
         onChange={(value) => setFirstName(value)}
         errorPlaceholder="email@example/com"
       />

@@ -63,6 +63,9 @@ const InputField: React.FC<InputFieldProps> = ({
             onChange={checkInput}
             onBlur={clearError}
           />
+          <div className="input_field_error_message">
+            <span className="error_message">{error}</span>
+          </div>
         </>
       ) : (
         <>

@@ -1,5 +1,6 @@
 .input_field_container {
   display: flex;
+  flex-direction: column;
   width: 100%;
   justify-content: center;
   align-items: center;
@@ -20,10 +21,22 @@
   border: 3px solid var(--red);
   background-image: url("/icon-error.svg");
   background-repeat: no-repeat;
-  background-position: right 1rem center;
+  background-position: right 2rem center;
   background-size: 1.5rem;
 }
 
 .input_error::placeholder {
   color: var(--red);
+}
+
+.input_field_error_message {
+  border: 1px solid;
+  width: 25rem;
+  text-align: right;
+  color: var(--red);
+  font-style: italic;
+  font-weight: 400;
+  font-size: smaller;
+  box-sizing: border-box;
+  padding: 0.25rem 0 0.25rem 0;
 }
