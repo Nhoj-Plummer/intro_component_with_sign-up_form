@@ -14,7 +14,7 @@ export default function Home() {
         type="text"
         errorMessage="First Name cannot be empty"
         onChange={(value) => setFirstName(value)}
-        errorPlaceholder="TESTING FOR ERROR PLACEHOLDER USAGE"
+        errorPlaceholder="email@example/com"
       />
     </>
   );

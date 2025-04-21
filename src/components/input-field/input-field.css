@@ -1,3 +1,29 @@
+.input_field_container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid green;
+}
+
+.input_field {
+  font: var(--font-family);
+  font-size: var(--font-size-body);
+  font-weight: bold;
+  box-sizing: border-box;
+  padding: 1rem;
+  width: 25rem;
+  height: 3rem;
+}
+
 .input_error {
-  border: 20px solid var(--red);
+  border: 3px solid var(--red);
+  background-image: url("/icon-error.svg");
+  background-repeat: no-repeat;
+  background-position: right 1rem center;
+  background-size: 1.5rem;
+}
+
+.input_error::placeholder {
+  color: var(--red);
 }

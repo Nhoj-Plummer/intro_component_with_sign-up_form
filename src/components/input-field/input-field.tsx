@@ -59,7 +59,7 @@ const InputField: React.FC<InputFieldProps> = ({
             value={value}
             placeholder={errorPlaceholder}
             // placeholder={error ? "Error occurred!" : placeholder}
-            className="input_error"
+            className="input_field input_error"
             onChange={checkInput}
             onBlur={clearError}
           />
