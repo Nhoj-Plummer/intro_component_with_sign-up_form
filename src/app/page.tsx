@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <SignUp />
-      <Button text="Testing Field!" />
+      <Button text="CLAIM YOUR FREE TRIAL" />
     </>
   );
 }

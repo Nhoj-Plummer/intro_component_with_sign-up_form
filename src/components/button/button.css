@@ -1,6 +1,16 @@
 .button_container {
+  display: flex;
+  width: 100%;
+  font: var(--font-family);
+  padding: 1rem;
+  justify-content: center;
   border: 1px solid peru;
 }
 
 .button_field {
+  box-sizing: border-box;
+  background-color: var(--green);
+  font-size: var(--font-size-body);
+  padding: 1rem;
+  width: 100%;
 }
