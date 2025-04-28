@@ -31,8 +31,7 @@ const SignUp = () => {
         </div>
         <Button text="CLAIM YOUR FREE TRIAL" />
       </div>
-    <div className="sign-up-container">
-      <p>Sign Up section</p>
+      <div className="sign-up-container"></div>
     </div>
   );
 };
