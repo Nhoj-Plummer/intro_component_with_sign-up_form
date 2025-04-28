@@ -1,0 +1,26 @@
+.button_container {
+  display: flex;
+  width: 100%;
+  font: var(--font-family);
+  padding: 1rem;
+  justify-content: center;
+  border: 1px solid peru;
+}
+
+.button_field {
+  box-sizing: border-box;
+  background-color: var(--green);
+  font-size: var(--font-size-body);
+  padding: 1rem;
+  font-weight: 700;
+  color: white;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.button_field:hover {
+  cursor: pointer;
+  filter: brightness(1.2);
+}
