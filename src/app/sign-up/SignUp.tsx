@@ -1,6 +1,7 @@
 import "@/app/sign-up/SignUp.css";
 import React, { useState } from "react";
 import InputField from "@/components/input-field/input-field";
+import Button from "@/components/button/button";
 
 const SignUp = () => {
   const [firstName, setFirstName] = useState("");
@@ -28,6 +29,7 @@ const SignUp = () => {
             errorPlaceholder="email@example/com"
           />
         </div>
+        <Button text="CLAIM YOUR FREE TRIAL" />
       </div>
     </div>
   );
