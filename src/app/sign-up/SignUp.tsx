@@ -18,9 +18,30 @@ const SignUp = () => {
       </div>
       <div className="sign_up_inputs_container">
         <div className="sign_up_inputs_reminder">
-          Try it free 7 days then $20/mo. thereafter
+          <span>Try it free 7 days </span>then $20/mo. thereafter
         </div>
         <div className="sign_up_inputs_fields">
+          <InputField
+            placeholder="First Name"
+            type="text"
+            errorMessage="First Name "
+            onChange={(value) => setFirstName(value)}
+            errorPlaceholder="email@example/com"
+          />
+          <InputField
+            placeholder="First Name"
+            type="text"
+            errorMessage="First Name "
+            onChange={(value) => setFirstName(value)}
+            errorPlaceholder="email@example/com"
+          />
+          <InputField
+            placeholder="First Name"
+            type="text"
+            errorMessage="First Name "
+            onChange={(value) => setFirstName(value)}
+            errorPlaceholder="email@example/com"
+          />
           <InputField
             placeholder="First Name"
             type="text"
