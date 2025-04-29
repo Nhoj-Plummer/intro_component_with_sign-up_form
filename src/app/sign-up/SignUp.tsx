@@ -18,39 +18,49 @@ const SignUp = () => {
       </div>
       <div className="sign_up_inputs_container">
         <div className="sign_up_inputs_reminder">
-          <span>Try it free 7 days </span>then $20/mo. thereafter
+          <p>
+            <span>Try it free 7 days </span> then $20/mo. thereafter
+          </p>
         </div>
-        <div className="sign_up_inputs_fields">
-          <InputField
-            placeholder="First Name"
-            type="text"
-            errorMessage="First Name "
-            onChange={(value) => setFirstName(value)}
-            errorPlaceholder="email@example/com"
-          />
-          <InputField
-            placeholder="First Name"
-            type="text"
-            errorMessage="First Name "
-            onChange={(value) => setFirstName(value)}
-            errorPlaceholder="email@example/com"
-          />
-          <InputField
-            placeholder="First Name"
-            type="text"
-            errorMessage="First Name "
-            onChange={(value) => setFirstName(value)}
-            errorPlaceholder="email@example/com"
-          />
-          <InputField
-            placeholder="First Name"
-            type="text"
-            errorMessage="First Name "
-            onChange={(value) => setFirstName(value)}
-            errorPlaceholder="email@example/com"
-          />
+        <div className="sign_up_inputs_container_two">
+          <div className="sign_up_inputs_fields">
+            <InputField
+              placeholder="First Name"
+              type="text"
+              errorMessage="First Name "
+              onChange={(value) => setFirstName(value)}
+              errorPlaceholder="email@example/com"
+            />
+            <InputField
+              placeholder="First Name"
+              type="text"
+              errorMessage="First Name "
+              onChange={(value) => setFirstName(value)}
+              errorPlaceholder="email@example/com"
+            />
+            <InputField
+              placeholder="First Name"
+              type="text"
+              errorMessage="First Name "
+              onChange={(value) => setFirstName(value)}
+              errorPlaceholder="email@example/com"
+            />
+            <InputField
+              placeholder="First Name"
+              type="text"
+              errorMessage="First Name "
+              onChange={(value) => setFirstName(value)}
+              errorPlaceholder="email@example/com"
+            />
+          </div>
+          <Button text="CLAIM YOUR FREE TRIAL" />
+          <div className="sign_up_inputs_reminder_two">
+            <p>
+              By clicking the button, you are agreeing to our{" "}
+              <span>Terms and Services</span>
+            </p>
+          </div>
         </div>
-        <Button text="CLAIM YOUR FREE TRIAL" />
       </div>
     </div>
   );
