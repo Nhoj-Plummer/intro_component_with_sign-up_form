@@ -1,0 +1,46 @@
+.input_field_container {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 1rem;
+  align-items: center;
+}
+
+.input_field {
+  font: var(--font-family);
+  font-size: var(--font-size-body);
+  font-weight: bold;
+  box-sizing: border-box;
+  padding: 1rem;
+  width: 100%;
+  height: 3rem;
+}
+
+.input_error {
+  border: 3px solid var(--red);
+  background-image: url("/icon-error.svg");
+  background-repeat: no-repeat;
+  background-position: right 2rem center;
+  background-size: 1.5rem;
+}
+
+.input_error::placeholder {
+  color: var(--red);
+}
+
+.input_field_error_message {
+  position: absolute; /* Position the error message absolutely */
+  top: 75%; /* Place it just below the input field */
+  right: 3.5%; /* Align it to the right of the container */
+  width: 25rem;
+  text-align: right;
+  color: var(--red);
+  font-style: italic;
+  font-weight: 400;
+  font-size: smaller;
+  box-sizing: border-box;
+  padding: 0.25rem 0 0.25rem 0;
+}
