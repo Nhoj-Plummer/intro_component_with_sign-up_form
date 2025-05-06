@@ -4,7 +4,6 @@
   font: var(--font-family);
   padding: 1rem;
   justify-content: center;
-  border: 1px solid peru;
 }
 
 .button_field {

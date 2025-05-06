@@ -5,16 +5,22 @@ import Button from "@/components/button/button";
 
 const SignUp = () => {
   const [firstName, setFirstName] = useState("");
-
+  const [lastName, setLastName] = useState("");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
   return (
     <div className="sign_up_container">
       <div className="sign_up_text_container">
-        <h1>Learn to code by watching others</h1>
-        <p>
-          See how experienced developers solve problems in real-time. Watcing
-          scripted tutorials is great, but understanding how developers think is
-          invaluable.
-        </p>
+        <div className="sign_up_text_container_text_1">
+          <h1>Learn to code by watching others</h1>
+        </div>
+        <div className="sign_up_text_container_text_2">
+          <p>
+            See how experienced developers solve problems in real-time. Watcing
+            scripted tutorials is great, but understanding how developers think
+            is invaluable.
+          </p>
+        </div>
       </div>
       <div className="sign_up_inputs_container">
         <div className="sign_up_inputs_reminder">
@@ -32,24 +38,24 @@ const SignUp = () => {
               errorPlaceholder="email@example/com"
             />
             <InputField
-              placeholder="First Name"
+              placeholder="Last Name"
               type="text"
-              errorMessage="First Name "
-              onChange={(value) => setFirstName(value)}
+              errorMessage="Last Name "
+              onChange={(value) => setLastName(value)}
               errorPlaceholder="email@example/com"
             />
             <InputField
-              placeholder="First Name"
+              placeholder="Email Address"
               type="text"
-              errorMessage="First Name "
-              onChange={(value) => setFirstName(value)}
+              errorMessage="Email Address "
+              onChange={(value) => setEmail(value)}
               errorPlaceholder="email@example/com"
             />
             <InputField
-              placeholder="First Name"
+              placeholder="Password"
               type="text"
-              errorMessage="First Name "
-              onChange={(value) => setFirstName(value)}
+              errorMessage="Password "
+              onChange={(value) => setPassword(value)}
               errorPlaceholder="email@example/com"
             />
           </div>
